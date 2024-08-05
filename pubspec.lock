@@ -36,10 +36,11 @@ packages:
   aws_request:
     dependency: "direct main"
     description:
-      name: aws_request
-      sha256: c8b8b794b4908b8478a471933e115d8d070b469c8f72cfb4677e6357738803c1
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "56e56479d89b2ad1d5b97ecd92db5a997390b152"
+      url: "https://github.com/morenojulio/Flutter_AWS_Request.git"
+    source: git
     version: "1.0.1"
   boolean_selector:
     dependency: transitive
@@ -117,10 +118,10 @@ packages:
     dependency: "direct main"
     description:
       name: http
-      sha256: "4c3f04bfb64d3efd508d06b41b825542f08122d30bda4933fb95c069d22a4fa3"
+      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "0.13.6"
   http_multi_server:
     dependency: transitive
     description:

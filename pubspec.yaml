@@ -7,10 +7,14 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  aws_request: ^1.0.1 # Make request to AWS
-  synchronized: ^3.0.0 # Synchronize requests to ensure valid keys
-  http: ^1.0.0 # Http package for parsing AWS responses correctly on Multiple Platforms
-  crypto: ^3.0.0 # Message hashes used to collate split messages
+  aws_request:
+    git:
+      url: https://github.com/morenojulio/Flutter_AWS_Request.git
+      ref: main # branch name
+      publish_to: none
+  synchronized: ^3.1.0 # Synchronize requests to ensure valid keys
+  http: ^0.13.6 # Http package for parsing AWS responses correctly on Multiple Platforms
+  crypto: ^3.0.3 # Message hashes used to collate split messages
 
 dev_dependencies:
   test: ^1.24.0
